@@ -1,0 +1,20 @@
+**文字超出盒子隐藏显示省略号移入显示全部**
+```html
+<div title="文本内容，超长显示省略号">文本内容，超长显示省略号</div>
+```
+```css
+div{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+```
+**文字禁止选中复制**
+```html
+<div>文本中的内容</div>
+```
+```css
+div{
+    user-select:none;
+}
+```
